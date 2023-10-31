@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- 获取id地址 -->
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script type="text/javascript">
+           sessionStorage.setItem('ip', returnCitySN["cip"])
+    </script>
+    <!-- <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script> -->
+    <!-- <script type="text/javascript">
+      console.log(returnCitySN["cip"] + ',' + returnCitySN["cname"])
+      var value = returnCitySN["cip"] || '';
+      var name = 'o-cip';
+      if (typeof value === typeof {}) value = JSON.stringify(value);
+      window.localStorage.setItem(name, value);
+      var value1 = returnCitySN["cname"] || '';
+      var name1 = 'o-cname';
+      if (typeof value1 === typeof {}) value1 = JSON.stringify(value1);
+      window.localStorage.setItem(name1, value1)
+      window.initNECaptcha = initNECaptcha
+    </script> -->
+  </body>
+</html>

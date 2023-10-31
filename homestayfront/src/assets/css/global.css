@@ -1,0 +1,24 @@
+/* .globalBackgroundImg {
+    background-image: url(../images/leaves.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+.globalBackgroundColor {
+    /* background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0); */
+
+
+    background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 40%, #FCC8F8 40%, #FCC8F8 60%, #EAB4F8 60%, #EAB4F8 65%, #F3F798 65%, #F3F798 90%);
+}
+
+.globalGlassmorphism {
+    background: rgba(80, 227, 194, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
